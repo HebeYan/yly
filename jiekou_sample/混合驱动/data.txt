@@ -1,0 +1,2 @@
+{'input_word':'python','expect_word':'基础'}
+{'input_word':'go','expect_word':'百度百科'}

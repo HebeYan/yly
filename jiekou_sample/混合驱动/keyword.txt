@@ -1,0 +1,6 @@
+visit||Chrome
+get||http://www.baidu.com
+input||//input[@id='kw']||{{input_word}}
+click||//input[@id='su']
+sleep||1
+assert_word||{{expect_word}}
