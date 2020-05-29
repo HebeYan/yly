@@ -10,7 +10,7 @@ exceptionPath = projectPath + r'/exceptionpictures'
 
 # 驱动存放路径， 需要自己根据自己电脑的驱动为止修改
 iePath = ''
-chromePath = ''
+chromePath = '/usr/bin/chromedriver.exe'
 fireFox = ''
 
 # excel文件存放路径
