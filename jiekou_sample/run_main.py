@@ -1,7 +1,7 @@
 # coding=utf-8
 import unittest
 import time
-import HTMLTestRunner
+import HTMLTestRunner_cn
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
@@ -37,7 +37,7 @@ def run_case(all_case, reportName="report"):
     report_abspath = os.path.join(report_path, now+"result.html")
     print("report path:%s"%report_abspath)
     fp = open(report_abspath, "wb")
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
+    runner = HTMLTestRunner_cn.HTMLTestRunner(stream=fp,
                                            title=u'自动化测试报告,测试结果如下：',
                                            description=u'用例执行情况：')
 
