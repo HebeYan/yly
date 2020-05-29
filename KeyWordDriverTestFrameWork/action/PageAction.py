@@ -10,7 +10,6 @@
 from config.VarConfig import iePath, chromePath
 from util.DirAndTime import DirAndTime
 from util.ObjectMap import get_element
-from util.ClipboardUtil import Clipboard
 from util.KeyBoardUtil import KeyBoardKeys
 from util.WaitUntil import WaitUnit
 
