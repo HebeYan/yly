@@ -18,8 +18,8 @@ def open_browser(browser):
             #driver = webdriver.Ie(executable_path=iePath)
             driver = webdriver.Ie()
         elif browser.lower() == 'chrome':
-            #driver = webdriver.Chrome(executable_path=chromePath)
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(executable_path=chromePath)
+            #driver = webdriver.Chrome()
         else:
             # driver = webdriver.Firefox(executable_path=fireFox)
             driver = webdriver.Firefox()
