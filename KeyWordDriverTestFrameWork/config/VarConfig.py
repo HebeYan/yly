@@ -35,7 +35,15 @@ testStep_testRunTime = 7
 testStep_testResult = 8
 testStep_testErrorInfo = 9
 testStep_testErrorPic = 10
+#邮件
+smtp_server = 'smtp.qq.com'
+port = 465
+sender = '1023278689@qq.com'
+#;psw是QQ邮箱的授权码
+psw = 'tiukknlergcgbede'
 
+#收件人多个时，中间用逗号隔开,如'a@xx.com,b@xx.com'
+receiver = 'yanlingyu@51talk.com'
 
 if __name__ == '__main__':
     print(projectPath)
