@@ -12,7 +12,13 @@ from config.VarConfig import (
     testStep_elementBy,
     testStep_elementLocator,
     testStep_operateValue,
-    testCase_testResult
+    testCase_testResult,
+    smtp_server,
+    port,
+    sender,
+    psw,
+    receiver,
+    excelPath
 )
 from util.log import Logger
 from util.ParseExcel import ParseExcel
@@ -106,6 +112,11 @@ def test_126_mail_send_with_att():
                     p.write_cell(sheetName[0], index + 2, testCase_testResult, 'Failed')
         log.logger.info('共{}条用例，{}条需要被执行，本次执行通过{}条'.
                         format(len(is_execute_column_values), required_case, test_case_pass_num))
+        mail_body='''
+        共{}条用例，{}条需要被执行，本次执行通过{}条
+        详见附件excel
+        '''.format(len(is_execute_column_values), required_case, test_case_pass_num)
+        SendEmail.send_mail(sender, psw, receiver, smtp_server, excelPath, port,mail_body)
     except Exception as e:
         log.logger.info(e)
 
