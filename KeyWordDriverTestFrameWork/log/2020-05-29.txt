@@ -1,0 +1,21 @@
+2020-05-29 11:14:58,001 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 11:14:58,010 - Test126SendMailWithAttachment.py:[115] - [INFO] - 'NoneType' object has no attribute 'get_screenshot_as_file'
+2020-05-29 14:02:35,516 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:02:35,524 - Test126SendMailWithAttachment.py:[115] - [INFO] - 'NoneType' object has no attribute 'get_screenshot_as_file'
+2020-05-29 14:06:24,534 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:06:24,541 - Test126SendMailWithAttachment.py:[117] - [INFO] - 'NoneType' object has no attribute 'get_screenshot_as_file'
+2020-05-29 14:08:12,738 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:08:12,743 - Test126SendMailWithAttachment.py:[118] - [INFO] - 'NoneType' object has no attribute 'get_screenshot_as_file'
+2020-05-29 14:09:59,615 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:10:02,865 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"打开浏览器"执行通过
+2020-05-29 14:10:02,866 - Test126SendMailWithAttachment.py:[118] - [INFO] - [Errno 13] Permission denied: 'D:\\51talk\\UI\\KeyWordDriverTestFrameWork\\testData\\126mailSend.xlsx'
+2020-05-29 14:11:22,533 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:11:25,636 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"打开浏览器"执行通过
+2020-05-29 14:11:25,637 - Test126SendMailWithAttachment.py:[118] - [INFO] - [Errno 13] Permission denied: 'D:\\51talk\\UI\\KeyWordDriverTestFrameWork\\testData\\126mailSend.xlsx'
+2020-05-29 14:13:59,444 - Test126SendMailWithAttachment.py:[50] - [INFO] - 开始执行测试用例"登录失败用例"
+2020-05-29 14:14:02,363 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"打开浏览器"执行通过
+2020-05-29 14:14:02,975 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"访问测试网址"执行通过
+2020-05-29 14:14:04,457 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"窗口最大化"执行通过
+2020-05-29 14:14:09,757 - Test126SendMailWithAttachment.py:[104] - [INFO] - 步骤"等待126邮箱主页面加载完成"执行通过
+2020-05-29 14:14:10,606 - Test126SendMailWithAttachment.py:[101] - [INFO] - 步骤"断言当前活动页面中包含"你的专业电子邮局""执行失败
+2020-05-29 14:14:41,628 - Test126SendMailWithAttachment.py:[101] - [INFO] - 步骤"点击帐号密码登录"执行失败
