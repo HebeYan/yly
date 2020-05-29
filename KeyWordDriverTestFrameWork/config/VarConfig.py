@@ -13,7 +13,7 @@ import os
 # 项目根目录
 projectPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # 截图目录
-exceptionPath = projectPath + r'\exceptionpictures'
+exceptionPath = projectPath + '/exceptionpictures'
 
 # 驱动存放路径， 需要自己根据自己电脑的驱动为止修改
 iePath = ''
@@ -21,7 +21,7 @@ chromePath = ''
 fireFox = ''
 
 # excel文件存放路径
-excelPath = projectPath + r'\testData\126mailSend.xlsx'
+excelPath = projectPath + '/testData\126mailSend.xlsx'
 # loh文件存放路径
 logPath = projectPath + '\\log\\'
 # 测试用例部分列对应的列号
