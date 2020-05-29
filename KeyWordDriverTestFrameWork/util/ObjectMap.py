@@ -1,9 +1,4 @@
-"""
-------------------------------------
-@Time : 2019/8/3 14:20
-@Auth : linux超
-@File : ObjectMap.py
-@IDE  : PyCharm
+
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
