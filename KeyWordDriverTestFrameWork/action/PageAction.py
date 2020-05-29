@@ -1,12 +1,4 @@
-"""
-------------------------------------
-@Time : 2019/8/3 14:20
-@Auth : linux超
-@File : PageAction.py
-@IDE  : PyCharm
-@Motto: Real warriors,dare to face the bleak warning,dare to face the incisive error!
-------------------------------------
-"""
+
 from config.VarConfig import iePath, chromePath
 from util.DirAndTime import DirAndTime
 from util.ObjectMap import get_element
@@ -148,20 +140,6 @@ def switch_to_default():
 
 
 
-# 模拟tab键
-def tab_key():
-    try:
-        KeyBoardKeys.one_key('tab')
-    except Exception as e:
-        raise e
-
-
-# 模拟enter键
-def enter_key():
-    try:
-        KeyBoardKeys.one_key('enter')
-    except Exception as e:
-        raise e
 
 
 # 屏幕截图

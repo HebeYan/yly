@@ -1,12 +1,4 @@
-"""
-------------------------------------
-@Time : 2019/8/3 14:20
-@Auth : linux超
-@File : WaitUntil.py
-@IDE  : PyCharm
-@Motto: Real warriors,dare to face the bleak warning,dare to face the incisive error!
-------------------------------------
-"""
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec

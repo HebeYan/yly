@@ -1,12 +1,4 @@
-"""
-------------------------------------
-@Time : 2019/8/3 14:20
-@Auth : linux超
-@File : ParseExcel.py
-@IDE  : PyCharm
-@Motto: Real warriors,dare to face the bleak warning,dare to face the incisive error!
-------------------------------------
-"""
+
 from openpyxl import load_workbook
 from datetime import datetime
 
