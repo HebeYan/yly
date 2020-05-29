@@ -148,14 +148,6 @@ def switch_to_default():
         raise e
 
 
-# 模拟ctrl+v键
-def ctrl_v(value):
-    try:
-        Clipboard.set_text(value)
-        sleep(2)
-        KeyBoardKeys.two_keys('ctrl', 'v')
-    except Exception as e:
-        raise e
 
 
 # 模拟tab键
